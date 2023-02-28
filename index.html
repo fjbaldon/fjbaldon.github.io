@@ -6,23 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>fjbaldon | frontpage</title>
-		<style type="text/css">
-body {
-	margin: 40px auto;
-	max-width: 650px;
-	line-height: 1.6;
-	font-size: 18px;
-	color: #444;
-	padding: 0 10px
-}
-
-		h1,
-		h2,
-		h3 {
-			line-height: 1.2
-		}
-		</style>
-
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
@@ -30,15 +14,22 @@ body {
 			<h1>Francis John Baldon</h1>
 		</header>
 		<div></div>
-		<h2>Bio</h2>
+		<ul>
+			<h2>Bio</h2>
+		</ul>
 		<div></div>
-
 		<hr>
-		<h2>Connect</h2>
-		<p>
-		<a href="https://www.github.com/fjbaldon/fjbaldon.github.io" target="_blank">GitHub</a>
-		<a rel="me" href="https://infosec.exchange/@fjbaldon" target="_blank">Mastodon</a>
-		</p>
+		<ul>
+			<h2>Contact Me</h2>
+
+			Email: <a href="mailto:francisjohn.baldon@tutanota.com" target="_blank">francisjohn.baldon@tutanota.com</a><br>
+			Mastodon: <a rel="me" href="https://infosec.exchange/@fjbaldon" target="_blank">@fjbaldon@infosec.exchange</a><br>
+			Github: <a href="https://www.github.com/fjbaldon/fjbaldon.github.io" target="_blank">fjbaldon</a><br><br>
+			<a href="https://raw.githubusercontent.com/fjbaldon/fjbaldon.github.io/master/fjb.asc" target="_blank">GPG Key</a><br>
+			<code>
+				curl -fL https://raw.githubusercontent.com/fjbaldon/fjbaldon.github.io/master/fjb.asc | gpg --import
+			</code>
+		</ul>
 	</body>
 
 </html>
