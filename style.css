@@ -16,9 +16,3 @@ h3 {
 code {
     font-size: 0.7em
 }
-
-@-moz-document url-prefix() {
-    .not-firefox-warning {
-        display: none;
-    }
-}
