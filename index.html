@@ -72,13 +72,14 @@
         <li>Email: <a href="mailto:fjbaldon@gmail.com"
                       target="_blank">fjbaldon@gmail.com</a><br></li>
         <li>GitHub: <a href="https://www.github.com/fjbaldon">fjbaldon</a><br></li>
-        <a href="https://en.wikipedia.org/wiki/Main_Page">Test Link</a>
-        <!-- TEST 1: Will STAY BLUE (HTTP -> HTTPS redirect breaks history match) -->
-        <p><a href="http://motherfuckingwebsite.com/">1. Old HTTP Link (Redirects to HTTPS)</a></p>
+        <!-- TEST 1: Redirects (Will STAY BLUE on most reloads) -->
+        <p><a href="http://motherfuckingwebsite.com/">Test 1: HTTP version (Server redirects to HTTPS)</a></p>
 
-        <!-- TEST 2: Will TURN PURPLE (Exact HTTPS match, no redirect) -->
-        <p><a href="https://motherfuckingwebsite.com/">2. Clean HTTPS Link (Matches History Exactly)</a></p>
-    </ul>
+        <!-- TEST 2: www Redirect (Will STAY BLUE) -->
+        <p><a href="https://contrastrebellion.com/">Test 2: Non-www version (Server redirects to www.contrastrebellion.com)</a></p>
+
+        <!-- TEST 3: Pure Exact Match (Will TURN PURPLE) -->
+        <p><a href="https://en.wikipedia.org/wiki/Main_Page">Test 3: Direct HTTPS Wikipedia (No Redirects)</a></p>
     <a href="https://raw.githubusercontent.com/fjbaldon/fjbaldon.github.io/master/key.asc" target="_blank">GPG
         Key</a><br>
 </article>
